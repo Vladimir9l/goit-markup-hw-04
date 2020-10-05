@@ -357,8 +357,17 @@ header address {
 	fill: #afb1b8;
 }
 
+.social-list-svg {
+	width: 20px;
+	height: 20px;
+	fill: currentColor;
+}
+
 .social-list-link:hover .social-list-svg {
-	fill: #2196f3;
+	width: 44px;
+	height: 44px;
+	background-color: #2196f3;
+	fill: #fff;
 }
 
 .social-list-link {
