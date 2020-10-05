@@ -358,7 +358,8 @@ header address {
 }
 
 .social-list-link:hover .social-list-svg {
-	fill: #2196f3;
+	background-color: #2196F3;
+	fill: #fff;
 }
 
 .social-list-link {
