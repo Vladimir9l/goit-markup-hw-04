@@ -363,13 +363,13 @@ header address {
 	fill: currentColor;
 }
 
-.social-list-link:hover .social-list-svg {
+.social-list-link:hover,
+.social-list-link:focus {
 	width: 44px;
 	height: 44px;
 	background-color: #2196f3;
 	fill: #fff;
 }
-
 
 .social-list-link {
 	display: flex;
