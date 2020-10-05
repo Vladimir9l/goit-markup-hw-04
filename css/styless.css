@@ -590,3 +590,23 @@ footer address {
 	fill: #fff;
 	background-color: rgba(255, 255, 255, 0.1);
 }
+
+.social-links {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.social-links:hover,
+.social-links:focus {
+	background-color: #2196f3;
+}
+
+.social-links:hover .footer-svg,
+.social-links:focus .footer-svg {
+	fill: #ffffff;
+}
