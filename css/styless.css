@@ -358,9 +358,12 @@ header address {
 }
 
 .social-list-link:hover .social-list-svg {
-	background-color: #2196F3;
+	width: 44px;
+	height: 44px;
+	background-color: #2196f3;
 	fill: #fff;
 }
+
 
 .social-list-link {
 	display: flex;
