@@ -615,12 +615,12 @@ footer address {
 	background: rgba(255, 255, 255, 0.1);
 }
 
-.social-links:hover,
-.social-links:focus {
+.social-item:hover,
+.social-item:focus {
 	background-color: #2196f3;
 }
 
-.social-links:hover .footer-svg,
-.social-links:focus .footer-svg {
+.social-item:hover .footer-svg,
+.social-item:focus .footer-svg {
 	fill: #ffffff;
 }
