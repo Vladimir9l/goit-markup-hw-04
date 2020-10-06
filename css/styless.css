@@ -150,6 +150,10 @@ header address {
 	padding-bottom: 94px;
 }
 
+.section-three {
+	padding-bottom: 94px;
+}
+
 .hero {
 	background-color: #2f303a;
 	padding-top: 0;
@@ -272,7 +276,6 @@ header address {
 .team {
 	background: #f5f4fa;
 	text-align: center;
-	margin-top: 94px;
 }
 
 .team-list {
