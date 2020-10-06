@@ -365,10 +365,12 @@ header address {
 
 .social-list-link:hover,
 .social-list-link:focus {
-	width: 44px;
-	height: 44px;
 	background-color: #2196f3;
-	fill: #fff;
+}
+
+.social-list-link:hover .social-list-svg,
+.social-list-link:focus .social-list-svg {
+	fill: #ffffff;
 }
 
 .social-list-link {
@@ -379,6 +381,7 @@ header address {
 	height: 44px;
 	border-radius: 50%;
 	background-color: #fff;
+	color: #afb1b8;
 }
 
 .clients-list {
@@ -615,12 +618,12 @@ footer address {
 	background: rgba(255, 255, 255, 0.1);
 }
 
-.social-links:hover,
-.social-links:focus {
+.social-item:hover,
+.social-item:focus {
 	background-color: #2196f3;
 }
 
-.social-links:hover .footer-svg,
-.social-links:focus .footer-svg {
+.social-item:hover .footer-svg,
+.social-item:focus .footer-svg {
 	fill: #ffffff;
 }
